@@ -1,7 +1,66 @@
-.box {
-  height: 100px;
-  width: 200px;
-  background-color: blue;
-  border: 10px solid blue;
+body {
+  font-family: 'helvetica';
+  font-size: 15px;
+  width: 700px;
+  text-align: center;
+  margin-left: 290px;
+  padding: 50px;
+}
+
+.title {
+  font-family: 'baskerville';
+}
+
+
+
+.number{
+  color: red;
+  border: 1px solid;
+
+}
+
+.number:hover {
+  background-color: red;
+  color:#fff;
+}
+
+
+.footnote {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-family: 'baskerville';
+  display: none;
+}
+
+
+.footnote.showme{
+  display: block;
+}
+
+
+.mainheading:hover {
   color: yellow;
+  transition: 3s;
+  font-size: 20px;
+}
+
+
+.secondheading {
+display:none;
+}
+
+
+.secondheading.showme {
+  display: block;
+}
+
+img {
+  margin:auto;
+  width: 200px;
+
+}
+
+img.enlarge {
+  width: 500px;
 }
