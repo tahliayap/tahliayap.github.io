@@ -1,3 +1,6 @@
+/* Hover links */
+
+
 .mainheading {
   font-size: 70px;
 }
@@ -45,6 +48,14 @@ font-size: 12px;
   display: block;
 }
 
+
+/* Index */
+
+  .index1heading {
+    background-color: #3b5998;
+    color: white;
+    margin-top:9%;
+  }
 
 
 /* Geert */
@@ -298,4 +309,24 @@ cursor: pointer;
   border-color: #acacac;
   padding-left: 10px;
   font-size: 12px;
+}
+
+.beomyoung {
+  height: 500px;
+  width: 500px;
+  background-image: url('https://leoniecumiskey.files.wordpress.com/2013/05/dummymen-gif-beomyoung-sohn.gif?w=500');
+  background-size: cover;
+  border: 0.5px solid;
+  border-color: lightgrey;
+  align: center;
+}
+
+.andywarhol {
+  height: 500px;
+  width: 500px;
+  background-image: url('http://d2jv9003bew7ag.cloudfront.net/uploads/Andy-Warhol-Campbell-Soup-Cans-1962.jpg');
+  background-size: cover;
+  border: 0.5px solid;
+  border-color: lightgrey;
+  align: center;
 }
