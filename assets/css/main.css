@@ -52,8 +52,9 @@ font-size: 12px;
 /* Index */
 
   .index1heading {
-    background-color: #3b5998;
-    color: white;
+    color: black;
+    font-family: arial;
+    font-size: 30px;
     margin-top:9%;
   }
 
