@@ -229,6 +229,15 @@ textarea {
     color: #acacac;
 }
 
+.comment {
+    border: 1px #ddd solid;
+    width: 560px;
+    height: 50px;
+    resize: none;
+    margin-top: 10px;
+    color: #acacac;
+}
+
 .postbutton {
 background-color: #3b5998;
 color: white;
