@@ -39,6 +39,15 @@ $(document).ready(function() {
           });
 
 
+        $('.jb__trigger').mouseenter(function() {
+          $('.jb__image').addClass('showme');
+          });
+
+          $('.jb__trigger').mouseleave(function() {
+            $('.jb__image').removeClass('showme');
+          });
+
+
 
         $('.mz__trigger').mouseenter(function() {
             $('.mz__image').addClass('showme');

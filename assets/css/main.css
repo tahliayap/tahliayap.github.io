@@ -383,7 +383,6 @@ cursor: pointer;
 /*menu chat bar*/
 
 .chat__menu {
-  padding: 2px;
   border: 0.5px solid;
   border-color: lightgrey;
   border-radius: 2px;
@@ -392,17 +391,24 @@ cursor: pointer;
   right: 0;
   width: 300px;
   background-color: white;
-  height: 200px;
+  height: 100px;
   box-shadow: 2px -1px 3px #dcdcdc;
   border-radius: 7px;
+  display: block;
+  padding: 10px;
+
 }
 
 .chat__blue {
   background-color: #1e90ff;
+  width: 100%;
   color: white;
   font-weight: bold;
   text-decoration:none;
+
+
 }
+
 
 
 /*like button*/
