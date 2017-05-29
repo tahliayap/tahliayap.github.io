@@ -48,6 +48,17 @@ $(document).ready(function() {
           });
 
 
+        $('.dogb__trigger').mouseenter(function() {
+          $('.dogb__image').addClass('showme');
+          });
+
+        $('.dogb__trigger').mouseleave(function() {
+         $('.dogb__image').removeClass('showme');
+          });
+
+
+
+
 
         $('.mz__trigger').mouseenter(function() {
             $('.mz__image').addClass('showme');
@@ -57,5 +68,13 @@ $(document).ready(function() {
           $('.mz__trigger').mouseleave(function() {
             $('.mz__image').removeClass('showme');
           });
+
+
+
+  /*chat toggle*/
+
+    $('.chat__blue').click(function() {
+  $('.chat__menu').toggleClass('mini');
+});
 
   });
