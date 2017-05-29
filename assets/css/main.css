@@ -467,13 +467,14 @@ cursor: pointer;
   border-top-left-radius: 4px;
   padding-top: 5px;
   padding-left: 5px;
+  box-shadow: 0px 0.5px 2px #c0c0c0;
 
 
 }
 
 
 .chat__menu.mini {
-  height:20px;
+  height:22px;
   transition:0.3s;
 }
 
@@ -554,4 +555,32 @@ cursor: pointer;
 }
 .myButton:hover {
 	background-color:#f6f6f6;
+}
+
+
+
+
+.topnav {
+  overflow: hidden;
+  width:100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #3b5998;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: arial;
+}
+
+.topnav a:hover {
+  background-color: #355088;
+  color: white;
 }
