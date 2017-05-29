@@ -59,7 +59,6 @@ $(document).ready(function() {
 
 
 
-
         $('.mz__trigger').mouseenter(function() {
             $('.mz__image').addClass('showme');
           });

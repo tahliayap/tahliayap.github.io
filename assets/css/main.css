@@ -32,11 +32,6 @@ font-size: 12px;
   position: fixed;
 }
 
-.bronte__image {
-  bottom: : 10px;
-  right: 300px;
-  position: fixed;
-}
 
 
 .appear {
@@ -558,6 +553,7 @@ cursor: pointer;
 }
 
 
+/*top navigation bar*/
 
 
 .topnav {
@@ -567,7 +563,14 @@ cursor: pointer;
   top: 0;
   left: 0;
   background-color: #3b5998;
+  
+
 }
+
+.topnav a.activegif {
+    color: white;
+}
+
 
 .topnav a {
   float: left;
