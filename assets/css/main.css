@@ -399,6 +399,9 @@ cursor: pointer;
 
 .chat__blue {
   background-color: #1e90ff;
+  color: white;
+  font-weight: bold;
+  text-decoration:none;
 }
 
 
