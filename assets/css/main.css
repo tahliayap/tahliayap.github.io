@@ -456,19 +456,24 @@ cursor: pointer;
 
 .chat__blue {
   background-color: #f5f5f5;
-  width: 100%;
+  width: 98%;
   height: 25px;
   color: black;
   text-decoration: none;
   display: block;
   cursor: pointer;
   margin-top: 1px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  padding-top: 5px;
+  padding-left: 5px;
+
 
 }
 
 
 .chat__menu.mini {
-  height:15px;
+  height:20px;
   transition:0.3s;
 }
 
