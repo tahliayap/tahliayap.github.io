@@ -232,9 +232,10 @@ textarea {
 .postbutton {
 background-color: #3b5998;
 color: white;
-padding: 5.5px;
-padding-right: 7px;
-border-radius: 2px;
+padding: 7px;
+padding-right: 10px;
+border-radius: 3px;
+font-size: 12px;
 
 
 }
@@ -326,9 +327,93 @@ cursor: pointer;
 .andywarhol {
   height: 500px;
   width: 500px;
-  background-image: url('http://d2jv9003bew7ag.cloudfront.net/uploads/Andy-Warhol-Campbell-Soup-Cans-1962.jpg');
+  background-image: url('http://wertical.com/wp-content/uploads/2016/05/bidlo_not_warhol_1991.jpg');
   background-size: cover;
   border: 0.5px solid;
   border-color: lightgrey;
   align: center;
+}
+
+
+.emigread {
+  height: 500px;
+  width: 500px;
+  background-image: url('http://www.emigre.com/Images/Collectables3.jpg');
+  background-size: cover;
+  border: 0.5px solid;
+  border-color: lightgrey;
+  align: center;
+}
+
+
+/*Rollover images*/
+
+.rollover {
+  background-color: #add8e6;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.sideimage {
+  position: fixed;
+  left:170px;
+  top:220px;
+  display: none;
+  width: 500px;
+
+}
+
+.sideimage img {
+  width: 70%;
+}
+
+.sideimage.showme {
+  display: block;
+}
+
+/*menu chat bar*/
+
+.chat__menu {
+  padding: 2px;
+  border: 0.5px solid;
+  border-color: lightgrey;
+  border-radius: 2px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  background-color: white;
+  height: 200px;
+  box-shadow: 2px -1px 3px #dcdcdc;
+  border-radius: 7px;
+}
+
+.chat__blue {
+  background-color: #1e90ff;
+}
+
+
+/*like button*/
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#ffffff;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:5px 8px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+}
+.myButton:hover {
+	background-color:#f6f6f6;
 }
