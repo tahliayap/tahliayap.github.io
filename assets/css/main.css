@@ -211,8 +211,11 @@ body {
 
 }
 
-.headingprofile {
+.profilename {
   font-size: 20pt;
+  margin-left: 180px;
+  width: 500px;
+  color:white;
 }
 
 
@@ -563,7 +566,7 @@ cursor: pointer;
   top: 0;
   left: 0;
   background-color: #3b5998;
-  
+
 
 }
 
