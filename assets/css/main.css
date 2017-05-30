@@ -444,12 +444,29 @@ cursor: pointer;
   margin: 7px;
   transition:0.3s;
   position: fixed;
-  bottom: 0px;
+  bottom: -5px;
   right: 16px;
   font-size: 12px;
+  z-index: 99;
+
 
 }
 
+.chat__scroll {
+  height: 250px;
+  overflow-y: scroll;
+}
+
+.chat__textarea {
+  width:275px !important;height:30px !important;
+  position: absolute;
+  bottom: -5px;
+
+}
+
+.chat__textarea.zindex {
+  z-index: -1;
+}
 
 
 .chat__blue {
@@ -466,13 +483,14 @@ cursor: pointer;
   padding-top: 5px;
   padding-left: 5px;
   box-shadow: 0px 0.5px 2px #c0c0c0;
+  border-bottom: 1px solid lightgrey;
 
 
 }
 
 
 .chat__menu.mini {
-  height:22px;
+  height:30px;
   transition:0.3s;
 }
 
@@ -566,13 +584,8 @@ cursor: pointer;
   top: 0;
   left: 0;
   background-color: #3b5998;
-
-
 }
 
-.topnav a.activegif {
-    color: white;
-}
 
 
 .topnav a {

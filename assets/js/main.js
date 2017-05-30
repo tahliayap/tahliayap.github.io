@@ -74,6 +74,9 @@ $(document).ready(function() {
 
     $('.chat__blue').click(function() {
   $('.chat__menu').toggleClass('mini');
+  $('.chat__textarea').toggleClass('zindex');
 });
+
+$(".chat__scroll").scrollTop($(".chat__scroll")[0].scrollHeight);
 
   });
