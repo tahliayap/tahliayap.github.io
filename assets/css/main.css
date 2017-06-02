@@ -32,7 +32,9 @@ font-size: 12px;
   position: fixed;
 }
 
-
+a {
+  text-decoration: none;
+}
 
 .appear {
   position: fixed;
@@ -58,6 +60,9 @@ font-size: 25px;
     font-size: 30px;
     margin-top:9%;
   }
+
+
+
 
 
 /* Geert */
@@ -739,10 +744,17 @@ text-decoration: underline;
 .lo__image {
   width: 800px;
   left:450px;
-  top:220px;
+  top:280px;
 }
 
 .lo__trigger {
   color:white;
   font-weight: normal;
+}
+
+.lo__trigger:hover {
+  background-color: #355088;
+  color: white;
+  width: 100%;
+  display: block;
 }
