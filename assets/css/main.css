@@ -172,6 +172,27 @@ body {
   align: center;
 }
 
+.mikemcquade {
+  height: 600px;
+  width: 500px;
+  background-image: url('http://payload446.cargocollective.com/1/21/677272/11227637/NYT_FB_Psych_McQuade_712.jpg');
+  background-size: cover;
+  border: 0.5px solid;
+  border-radius: 4px;
+  border-color: lightgrey;
+  align: center;
+}
+
+.chrismurray {
+  height: 380px;
+  width: 500px;
+  background-image: url('https://static01.nyt.com/images/2013/11/17/business/17-BITS/17-BITS-tmagArticle.jpg');
+  background-size: cover;
+  border: 0.5px solid;
+  border-radius: 4px;
+  border-color: lightgrey;
+  align: center;
+}
 
 .col__1of4 {
   flex: 0 0 33.333%;
@@ -403,6 +424,28 @@ cursor: pointer;
   border-color: lightgrey;
   align: center;
 
+}
+
+.beomyoung {
+  height: 500px;
+  width: 500px;
+  background-image: url('https://leoniecumiskey.files.wordpress.com/2013/05/dummymen-gif-beomyoung-sohn.gif?w=500');
+  background-size: cover;
+  border: 0.5px solid;
+  border-radius: 4px;
+  border-color: lightgrey;
+  align: center;
+}
+
+.technologyreview {
+  height: 400px;
+  width: 400px;
+  background-image: url('https://d267cvn3rvuq91.cloudfront.net/i/images/facebookmediax299.jpg?sw=280');
+  background-size: cover;
+  border: 0.5px solid;
+  border-radius: 4px;
+  border-color: lightgrey;
+  align: center;
 }
 
 
@@ -744,7 +787,7 @@ text-decoration: underline;
 .lo__image {
   width: 800px;
   left:450px;
-  top:280px;
+  top:240px;
 }
 
 .lo__trigger {
