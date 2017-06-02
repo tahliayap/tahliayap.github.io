@@ -584,6 +584,17 @@ cursor: pointer;
   align: center;
 }
 
+.beyonce {
+  height: 520px;
+  width: 370px;
+  background-image: url('https://pbs.twimg.com/media/Ca4f9_QWIAIxX0f.jpg');
+  background-size: cover;
+  border: 0.5px solid;
+  border-color: lightgrey;
+  border-radius: 4px;
+  align: center;
+}
+
 /*menu chat bar*/
 
 .chat__menu {
