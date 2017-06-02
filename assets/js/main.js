@@ -69,6 +69,15 @@ $(document).ready(function() {
           });
 
 
+          $('.lo__trigger').mousedown(function() {
+              $('.lo__image').addClass('showme');
+            });
+
+
+            $('.lo__trigger').mouseleave(function( ) {
+              $('.lo__image').removeClass('showme');
+            });
+
 
   /*chat toggle*/
 

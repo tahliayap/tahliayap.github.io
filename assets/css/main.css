@@ -724,7 +724,7 @@ text-decoration: underline;
 }
 
 
-.logout a {
+.logout {
   display: block;
   color: white;
   padding: 10px 35px;
@@ -732,4 +732,17 @@ text-decoration: underline;
   font-size: 12px;
   font-family: arial;
   float: right;
+  color:white;
+}
+
+
+.lo__image {
+  width: 800px;
+  left:450px;
+  top:220px;
+}
+
+.lo__trigger {
+  color:white;
+  font-weight: normal;
 }
